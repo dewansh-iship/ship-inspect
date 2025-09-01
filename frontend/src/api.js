@@ -1,6 +1,6 @@
 import axios from 'axios';
 const api = axios.create({
-  baseURL: 'http://localhost:5001',
+  baseURL: 'https://ship-inspect.onrender.com',
   timeout: 0,  // 2 minutes
   withCredentials: true, // IMPORTANT
 });
