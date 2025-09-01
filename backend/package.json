@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "nodemon server.js"
+    "dev": "node init && nodemon server.js"
   },
   "dependencies": {
     "cookie-parser": "^1.4.7",
